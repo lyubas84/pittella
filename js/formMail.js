@@ -9,7 +9,7 @@ $("#sendMail").on("click", function(){
         data: {'email': email},
         dataType: 'html',
         beforeSend: function() {
-            console.log("BEFORE");
+            console.log("BEFORE NEW");
         },
         success: function(data) {
             console.log(data);

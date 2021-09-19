@@ -4,7 +4,7 @@ $("#sendMail").on("click", function(){
 
     $.ajax({
         url: 'mail.php',
-        type: 'GET',
+        type: 'POST',
         cache: false,
         data: {'email': email},
         dataType: 'html',

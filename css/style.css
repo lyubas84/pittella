@@ -1,0 +1,497 @@
+html {
+  scroll-behavior: smooth; }
+
+.bg-site {
+  background-color: #122035; }
+
+.logo-text {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  color: #BE8F51;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 0px; }
+
+.sotto-logo-text {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0px; }
+
+.menu-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.nolink {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+  .nolink:hover {
+    color: #CBA674;
+    text-decoration: none;
+    transition: 0.3s; }
+
+.intro-box {
+  background-image: url("../images/avvocato-pittella-intro.jpg");
+  background-size: cover;
+  margin: 10px 0px; }
+
+.intro-box-text {
+  color: white;
+  margin-top: 200px; }
+  .intro-box-text h5, .intro-box-text p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; }
+  .intro-box-text h5 {
+    letter-spacing: 0px; }
+  .intro-box-text h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-size: 90px; }
+
+.contact-transparent {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 15px 35px;
+  min-width: 180px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid white;
+  border-radius: 0px;
+  transition: 0.5s; }
+  .contact-transparent:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #CBA674;
+    border: 1px solid #CBA674; }
+
+.intro-box-card {
+  background-color: #122035;
+  color: white; }
+  .intro-box-card a {
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s; }
+    .intro-box-card a:hover {
+      text-decoration: none;
+      color: #CBA674; }
+  .intro-box-card .intro-card-line {
+    height: 5px;
+    background-color: #BE8F51;
+    transition: 0.5s; }
+  .intro-box-card:hover .intro-card-line {
+    background-color: #fff; }
+
+.about-us h2 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  color: #383838; }
+
+.about-us p {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0px; }
+
+.about-us hr {
+  width: 75px;
+  border: 1px solid #BE8F51; }
+
+.about-us i {
+  font-size: 40px;
+  color: #BE8F51; }
+
+.about-us p strong {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: #383838;
+  font-size: 15px;
+  line-height: 3;
+  letter-spacing: 0px; }
+
+.about-us span {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Merriweather', serif;
+  color: #383838;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  font-style: italic; }
+
+.about-us-text p {
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: #383838;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0px; }
+
+.studio-service {
+  background-color: #122035;
+  color: white; }
+  .studio-service h2 {
+    color: white; }
+  .studio-service .services-image {
+    border-radius: 50%;
+    height: 161px;
+    width: 162px;
+    background-color: white;
+    border: 2px solid #CBA674; }
+  .studio-service img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px; }
+
+.dark-section {
+  background-color: #122035; }
+  .dark-section h2, .dark-section p, .dark-section li {
+    color: white; }
+
+.border-gold {
+  position: relative; }
+  .border-gold::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #BE8F51;
+    left: 13px;
+    top: 14px;
+    z-index: -1; }
+
+.patrocinio-text i {
+  color: #122035;
+  font-size: 16px;
+  margin-right: 10px; }
+
+.carousel-item {
+  min-height: 750px; }
+
+.carousel-image-1 {
+  background: url("../images/avvocato-pittella-intro.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../images/avvocato-pittella-intro-2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../images/avvocato-pittella-intro-3.jpg");
+  background-size: cover; }
+
+.studio-legale {
+  background-color: #122035;
+  color: white; }
+  .studio-legale h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    color: #383838;
+    color: white; }
+  .studio-legale p {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0px; }
+  .studio-legale hr {
+    width: 75px;
+    border: 1px solid #BE8F51; }
+
+.service-card {
+  background-color: white;
+  width: 400px;
+  color: black; }
+  .service-card p {
+    font-size: 15px; }
+  .service-card a {
+    text-decoration: none; }
+    .service-card a span {
+      font-style: normal;
+      font-family: "Playfair Display", serif;
+      color: black;
+      font-size: 20px;
+      transition: 0.5s; }
+      .service-card a span:hover {
+        color: #CBA674; }
+
+.contacts {
+  background-image: url(/images/content-bg.jpg);
+  color: black; }
+
+.contacts-card {
+  border: 1px solid #ebebeb;
+  border-radius: 0px; }
+  .contacts-card h3 span {
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Playfair Display', serif;
+    color: #122035;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px; }
+  .contacts-card a {
+    color: black; }
+
+.form-section {
+  background-color: #F1F0F0; }
+  .form-section input, .form-section textarea {
+    border: 2px solid #939090;
+    border-radius: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding: 20px; }
+  .form-section button {
+    background-color: #CBA674;
+    border: 1px solid #CBA674;
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 12px 10px;
+    min-width: 180px;
+    text-transform: uppercase; }
+    .form-section button:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid #CBA674; }
+  .form-section h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-size: 26px; }
+
+.sending {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.9) url(../images/loading.gif) center/150px no-repeat;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease 0s; }
+
+.show-it {
+  opacity: 1;
+  visibility: visible; }
+
+.scroll-btn {
+  position: fixed;
+  right: 50px;
+  bottom: -70px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: #CBA674;
+  transition: .3s;
+  opacity: 0; }
+  .scroll-btn:hover {
+    background-color: #122035;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.5); }
+  .scroll-btn a {
+    color: white;
+    padding: 20px; }
+
+.show-scroll-btn {
+  opacity: 1;
+  right: 50px;
+  bottom: 70px; }
+
+.phone-card {
+  position: fixed;
+  overflow: hidden;
+  left: 30px;
+  bottom: 70px;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: 0.7s ease 0.2s; }
+  .phone-card .phone-card-icon {
+    position: fixed;
+    left: 30px;
+    bottom: 70px;
+    padding: 16px;
+    opacity: 1;
+    transform: rotate(90deg) scale(0.8);
+    color: #BE8F51;
+    transition: 0.3s, transform 0.5s ease 0.3s, opacity 0.5s ease 0.3s; }
+    .phone-card .phone-card-icon:hover {
+      transition: 0.3s;
+      color: #CBA674; }
+  .phone-card .phone-card-close {
+    position: fixed;
+    top: -5px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s; }
+  .phone-card .phone-card-content {
+    transition: 0.5s ease 0.2s;
+    opacity: 0;
+    transform: translateY(200px) scale(0); }
+  .phone-card .phone-card-arrow-line {
+    transition: 0.3s;
+    opacity: 1;
+    transform: scale(0); }
+    .phone-card .phone-card-arrow-line .phone-card-arrow {
+      transition: 0.3s;
+      opacity: 0;
+      transform: scale(0); }
+      .phone-card .phone-card-arrow-line .phone-card-arrow:hover {
+        cursor: pointer; }
+
+.open-phone-card {
+  width: 280px;
+  height: 220px;
+  border-radius: 3px;
+  transition: 0.5s ease 0.2s; }
+  .open-phone-card .phone-card-icon {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.7s; }
+  .open-phone-card .phone-card-content {
+    transition: 0.8s;
+    opacity: 1;
+    transform: translateY(0px) scale(1); }
+  .open-phone-card .phone-card-close {
+    transition: 0.8s ease 0.2s; }
+  .open-phone-card .phone-card-arrow-line {
+    position: fixed;
+    left: 30px;
+    bottom: 65px;
+    width: 280px;
+    height: 35px;
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.5s ease 0.3s; }
+    .open-phone-card .phone-card-arrow-line .phone-card-arrow {
+      transform: scale(1.3);
+      opacity: 1; }
+      .open-phone-card .phone-card-arrow-line .phone-card-arrow:hover {
+        cursor: pointer; }
+
+.phone-card-footer a {
+  text-decoration: none; }
+  .phone-card-footer a i:hover {
+    transition: 0.3s;
+    transform: scale(1.1); }
+
+.phone-card-footer .fa-linkedin {
+  color: #0A66C2; }
+
+.phone-card-footer .fa-whatsapp-square {
+  color: #46E864; }
+
+.phone-card-footer .fa-facebook {
+  color: #0778E9; }
+
+.blue {
+  color: #122035; }
+
+.phone-card-bigger {
+  height: 300px; }
+
+.turn-it {
+  transform: scale(1.3) rotate(180deg) !important; }
+
+.modal-content {
+  background-image: url("../images/bg-modal.jpg");
+  background-size: cover;
+  color: white;
+  margin-top: 20%;
+  border: 2px solid #BE8F51; }
+  .modal-content h5 {
+    margin-left: 10%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0px; }
+  .modal-content p {
+    padding: 10px;
+    color: white; }
+
+.achievements {
+  background: url("../images/bg-modal.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.achievements-content {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  color: white;
+  font-size: 20px; }
+
+@media screen and (min-width: 991px) {
+  .menu-link {
+    font-size: 8px; }
+  .intro-box-card {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px; } }
+
+@media screen and (min-width: 1100px) {
+  .menu-link {
+    font-size: 10px; } }
+
+@media screen and (max-width: 1100px) {
+  .intro-box-text {
+    margin-top: 50px; }
+    .intro-box-text h1 {
+      font-size: 30px; } }
+
+@media screen and (min-width: 1200px) {
+  .menu-link {
+    font-size: 12px; } }
+
+@media screen and (min-width: 1350px) {
+  .menu-link {
+    font-size: 14px; }
+  .intro-box-card {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px; } }
+
+@media screen and (max-width: 600px) {
+  .nolink a {
+    font-size: 12px; } }

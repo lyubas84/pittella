@@ -165,12 +165,12 @@
                     <div class="row">
                         <div class="col-3"></div>
                         <div class="col-6">
-                            <form id="form">
+                            <form id="form" action="mail.php" method="POST">
                                 <div class="form-group">
                                   <input type="text" class="form-control req" placeholder="Nome *" onkeyup="isEmpty(event.target)" onblur="isEmpty(event.target)">
                                 </div>
                                 <div class="form-group">
-                                  <input type="email" id="email" class="form-control req" aria-describedby="emailHelp" placeholder="Email *" onblur="isEmpty(event.target)">
+                                  <input type="email" name="email" class="form-control req" aria-describedby="emailHelp" placeholder="Email *" onblur="isEmpty(event.target)">
                                 </div>
                                 <div class="form-group">
                                   <input type="tel" class="form-control req" aria-describedby="emailHelp" placeholder="Telefono *" onkeyup="isEmpty(event.target)" onblur="isEmpty(event.target)">
@@ -179,7 +179,7 @@
                                     <textarea class="form-control req" rows="4" placeholder="Messaggio *" onkeyup="isEmpty(event.target)" onblur="isEmpty(event.target)"></textarea>
                                 </div>
                                 <div class="form-group text-center">
-                                    <button type="button" id="sendMail" class="btn btn-primary">Invio richiesta</button>
+                                    <button type="submit" class="btn btn-primary">Invio richiesta</button>
                                 </div>
                             </form>
                         </div>
@@ -293,8 +293,8 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/inputmask.min.js"></script>
-        <script src="js/index.js"></script>
         <script src="js/formMail.js"></script>
+        <script src="js/index.js"></script>
 
     </body>
 </html>
